@@ -1,0 +1,12 @@
+{
+
+    "cucumberautocomplete.steps": ["src/test/java/seleniumfree/steps/*.java"],
+    "cucumberautocomplete.syncfeatures": "test/features/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,
+
+
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "terminal.integrated.detectLocale": "auto"
+}
