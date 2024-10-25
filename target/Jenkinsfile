@@ -5,8 +5,10 @@ pipeline{
         
         stage('test') {
             steps {
-
+                dir("SeleniumFree"){
                 sh "mvm clean compile test"
+
+                }
             }
         }
 
