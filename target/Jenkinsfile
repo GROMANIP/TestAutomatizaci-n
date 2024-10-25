@@ -6,7 +6,7 @@ pipeline{
         stage('test') {
             steps {
                 dir("target"){
-                sh "mvm clean compile test"
+                sh "mvn clean compile test"
 
                 }
             }
