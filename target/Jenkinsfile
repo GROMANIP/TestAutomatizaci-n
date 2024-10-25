@@ -6,7 +6,7 @@ pipeline{
         stage('test') {
             steps {
                 dir("target"){
-                sh "mvn clean compile test"
+                sh "gradle clean compile test"
 
                 }
             }
