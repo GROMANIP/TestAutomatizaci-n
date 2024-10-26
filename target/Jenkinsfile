@@ -3,7 +3,7 @@ pipeline{
 
     stages {
         
-        stage('test') {
+        stage('Test') {
             steps {
                 dir("target"){
                 sh "gradle clean compile test"
