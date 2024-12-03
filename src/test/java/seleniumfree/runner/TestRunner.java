@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 import seleniumfree.pages.BasePage;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "src/test/java/seleniumfree/runner" }, glue = { "seleniumfree.steps" }, plugin = { "pretty",
+@CucumberOptions(features = { "src\\test\\resources" }, glue = { "seleniumfree.steps" }, plugin = { "pretty",
         "html:target/cucumber-reports" }, tags = "@Cart")
 
 public class TestRunner{

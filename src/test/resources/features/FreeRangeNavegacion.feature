@@ -42,5 +42,5 @@ Feature: Navigation bar
 
     #gradle test "-Dpropiedad.del.sistema='@Plans'"
     #gradle test -Dcucumber.filter.tags="@Cart"
-    #.\gradlew test -Dcucumber.filter.tags="@Plans"
+    #.\gradlew test -Dcucumber.filter.tags="@Cart"
 
