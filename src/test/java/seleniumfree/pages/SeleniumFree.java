@@ -1,12 +1,12 @@
 package seleniumfree.pages;
 
-import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 public class SeleniumFree {
 
     private WebDriver driver;
