@@ -4,7 +4,7 @@ public class AmazonWebServer extends BasePage {
 
     private String id = "//input[@id='twotabsearchtextbox']";
     private String buscar = "//input[@id='nav-search-submit-button']";
-    private String producto = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[4]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1]/a[1]/span[1]";
+    private String producto = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/h2[1]/span[1]";
     private String agregarCarrito = "//input[@id='add-to-cart-button']";
     private String ValidarTextoCart = "//h1[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']";
 
