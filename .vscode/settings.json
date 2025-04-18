@@ -8,5 +8,7 @@
 
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.compile.nullAnalysis.mode": "automatic",
-    "terminal.integrated.detectLocale": "auto"
+    "terminal.integrated.detectLocale": "auto",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "git.ignoreLimitWarning": true
 }

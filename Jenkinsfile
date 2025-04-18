@@ -17,7 +17,7 @@ pipeline{
         }
         stage ("imprimo cositas"){
             steps{
-                echo "Soy un Stage aparte"
+                echo "Soy un Stage aparte: ${env.Cart}"
             }
         }
     }
