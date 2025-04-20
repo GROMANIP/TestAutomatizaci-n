@@ -23,11 +23,6 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: 'build/reports/tests/test/index.html'
-            publishHTML htmlPublisher: [
-                htmlFiles: 'build/reports/tests/test/index.html',
-                reportName: 'My Report',
-                reportTitles: '' // Opcional
-            ]
         }
     }
 }
