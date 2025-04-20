@@ -20,5 +20,16 @@ pipeline{
                 echo "Soy un Stage aparte"
             }
         }
+                 post {
+             always {
+                 archiveArtifacts artifacts: 'build/reports/tests/test/index.html' // O cualquier ruta relativa
+                 // Si deseas ver el informe en la página de Jenkins
+                 publishHTML htmlPublisher: [
+                     htmlFiles: 'build/reports/tests/test/index.html',
+                     reportName: 'My Report',
+                     reportTitles: '' // Opcional
+                 ]
+             }
+         }
     }
 }
