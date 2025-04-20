@@ -22,7 +22,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'D:/Selenium/SeleniumFree/build/reports/tests/test/index.html'
+            archiveArtifacts artifacts: 'build\\reports\\tests\\test\\index.html'
         }
     }
 }
