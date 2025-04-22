@@ -2,7 +2,7 @@ package seleniumfree.pages;
 
 public class PaginaIntroduccion extends BasePage {
 
-    private String introduccionClickIntroduccion = "//h3[normalize-space()='Fundamentos del Testing']";
+    private String introduccionClickIntroduccion = "//h3[normalize-space()='Introducción al Testing de Software']";
 
 
     public PaginaIntroduccion(){
