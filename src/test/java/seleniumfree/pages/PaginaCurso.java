@@ -3,7 +3,7 @@ package seleniumfree.pages;
 
 public class PaginaCurso extends BasePage {
 
-    private String fundamentoClick = "//h3[normalize-space()='Introducción al Testing de Software']";
+    private String fundamentoClick = "//a[@class='sc-hORkcV khhKqW sc-fAomSb sc-ijEwUV ibWYYr urOie'][normalize-space()='Cursos']";
 
     public PaginaCurso() {
         super(driver);
