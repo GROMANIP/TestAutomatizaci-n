@@ -10,7 +10,7 @@ pipeline {
             steps {
                 git 'https://github.com/GROMANIP/TestAutomatizaci-n.git'
                 bat 'gradle clean'
-                bat 'gradle Course'
+                bat 'gradle test'
             }
         }
 
