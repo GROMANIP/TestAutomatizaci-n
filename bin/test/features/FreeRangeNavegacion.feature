@@ -7,7 +7,7 @@ Feature: Navigation bar
     #La regla tiene que ir junto a los escenarios
     Rule: regla para probar nuevo
 
-        Background: Vamor a navegar y acceder libremente a la pagina Restesting
+        Background: Vamos a navegar y acceder libremente a la pagina Restesting
             Given I navigate to www.freerangetesters.com
 
         #TAGS es un identificador ,cada vez que usemos este identificador estaremos diciendo
